@@ -26,7 +26,7 @@ export const IconButton = ({
       onClick={onClick}
     >
       <div
-        className="rounded-md transition-colors duration-300" // Adiciona padding e borda arredondada
+        className="rounded-md transition-colors duration-300 cursor-pointer" // Adiciona padding e borda arredondada
         style={{
           backgroundColor: isActive ? hoverColor : "transparent", // Cor de fundo quando ativo
         }}
