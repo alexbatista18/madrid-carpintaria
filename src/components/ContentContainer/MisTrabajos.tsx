@@ -109,11 +109,18 @@ export const MisTrabajos = () => {
           icon={<AiOutlineInstagram />}
           textColor="white"
           hoverColor="#333333"
+          onClick={() =>
+            window.open(
+              "https://www.instagram.com/madrid.carpinteria/",
+              "_blank"
+            )
+          }
         />
         <IconButton
           icon={<AiOutlineWhatsApp />}
           textColor="white"
           hoverColor="#333333"
+          onClick={() => window.open("https://wa.me/34662302744", "_blank")}
         />
       </div>
     </div>

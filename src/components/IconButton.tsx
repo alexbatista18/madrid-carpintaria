@@ -17,7 +17,7 @@ export const IconButton = ({
 }: IconButtonProps) => {
   return (
     <div
-      className={`text-4xl rounded-md transition-all duration-300 transform ${
+      className={`text-3xl rounded-md transition-all duration-300 transform ${
         isActive ? "scale-110" : "hover:scale-110"
       }`}
       style={{
@@ -26,7 +26,7 @@ export const IconButton = ({
       onClick={onClick}
     >
       <div
-        className="rounded-md transition-colors duration-300 cursor-pointer" // Adiciona padding e borda arredondada
+        className="rounded-md transition-colors duration-300 cursor-pointer p-1" // Adiciona padding e borda arredondada
         style={{
           backgroundColor: isActive ? hoverColor : "transparent", // Cor de fundo quando ativo
         }}
